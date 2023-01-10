@@ -533,7 +533,6 @@ hr {
   display: flex;
   margin: 15px auto;
   flex-direction: column;
-  /* padding: 0 15px; */
 }
 .photo-description{
   color: #fff;
