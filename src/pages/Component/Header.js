@@ -1,6 +1,6 @@
 import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
-import ThemeLogo from "./../../assets/Images/ThemeLogo.png";
+
 import Links from "./Links";
 // import Links from './Link';
 const Header = () => {
@@ -11,11 +11,7 @@ const Header = () => {
         <Navbar collapseOnSelect expand="lg">
          
             <Navbar.Brand href="#home" className="logo">
-              <img
-                src={ThemeLogo}
-                alt="themeLogo"
-                className="img-fluid mx-auto"
-              />
+              <h5 className="logo">Zakariye Aden</h5>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end nav-menu">

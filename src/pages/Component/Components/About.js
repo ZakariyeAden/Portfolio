@@ -27,19 +27,19 @@ const About = () => {
               <div>
                 <h1 className="about-title">About Us</h1>
                 <p className="about-subtitle">
-                  It is a long established fact that a reader will be distracted
-                  by the eadable content of a page when looking at its layout.
-                  The point of using Lorem Ipsum th that it has a ore-or-less
-                  normal distributi.
+                  At Normandale Community college, I am pursing my Associate
+                  degree. I have found interest in Computer Science and took
+                  courses at College although Normandale Community College
+                  courses were outdated.I found passion in Web Development which
+                  made me decide to learn on my own and discipline myself to
+                  become Web Developer.Currently learning App Development and interested in Cyber Security.
                 </p>
 
                 <p className="about-subtitle">
-                  content here', making it look like readable English. Many
-                  desktop publishing packages and web page editors now use Lorem
-                  Ipsum as their default model text, and a search for 'lorem
-                  ipsum' will uncover many web sites still in their infancy.
-                  Various versions have evolved over the years, sometimes by
-                  accident
+                  I am always motivated, phenomenal team member, and capable of
+                  learning new skills and working effiecently. During my
+                  internship within Addcomposite, I have built and design few
+                  pages and made their user interface fully responsive.
                 </p>
               </div>
               <div className="about-psl-info">
@@ -73,9 +73,7 @@ const About = () => {
                       <span className="perName1">Phone : </span>
                       <span className="perName2">612-442-5173</span>
                     </div>
-                    <div className=" about-list">
-                    
-                    </div>
+                    <div className=" about-list"></div>
                     <div className=" about-list">
                       <span className="perName1">E-mail : </span>
                       <span className="perName2">zakariyeadenn@gmail.com</span>

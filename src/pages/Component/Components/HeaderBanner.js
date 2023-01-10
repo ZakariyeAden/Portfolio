@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import Banner from "../../../assets/Images/Banner/Banner.png";
+
 import Aos from "aos";
 import Links from '../Links'
 import "aos/dist/aos.css";
@@ -16,14 +16,17 @@ const HeaderBanner = () => {
               <div>
                 <h5 data-aos="fade-down " className="heading">Web Developer</h5>
                 <h1 data-aos="flip-down">Zakariye Aden</h1>
-                <p data-aos="fade-up">
+                <h6 className="description">
                   Passionate about building User Interface and 
                   <br />
-                  learning new skills and technologies that are growing within Tech such as App development.
+                  learning new skills or technologies that are growing within web development or tech. 
+                  
                   <br />
                   Always motivated and great team member who can add value and grow within the team.
-                </p>
-                <Links href="#About" className="BtnView">About Us</Links>
+                </h6>
+                <Links href="#About">
+                <button className="BtnView">About Us</button>
+                </Links>
               </div>
             </div>
           </div>

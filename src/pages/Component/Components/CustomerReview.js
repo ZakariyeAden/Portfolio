@@ -1,8 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
-import CR1 from "../../../assets/Images/CustomerReview/CR1.png";
-import CR2 from "../../../assets/Images/CustomerReview/CR2.png";
-import CR3 from "../../../assets/Images/CustomerReview/CR3.png";
+import CR1 from "../../../assets/Images/CustomerReview/DuyCao.jpeg";
 
 import { Container, Row, Col } from "react-bootstrap";
 const CustomerReview = () => {
@@ -52,7 +50,7 @@ const CustomerReview = () => {
                 <Row className="customerReview">
                   <Col md={2} xs={12}>
                     <img
-                      className="img-fluid mx-auto img-circle img--size"
+                      className="img-fluid mx-auto profile-img img--size"
                       src={CR1}
                       alt="Review"
                     />
@@ -60,65 +58,17 @@ const CustomerReview = () => {
 
                   <Col md={10} xs={12} className="customerP">
                     <p>
-                      Sed elit quam, iaculis sed semper sit amet udin vittheae
-                      nibi at magna akal semperFusce commodo molestie elit quam,
-                      iaculis sed sempsum Dolort tusima olatiup udin vitae magna
-                      semperFusceSed elit quam, iaculis sed semper udin vitae
-                      nibh. at magna akal semperFusce.
+                      "Zakariye is a fast learner who adapts quickly to new tools
+                      and technologies for his work. Besides that, I truly
+                      appreciate his passion for optimizing web development to
+                      create a unique customer experience. He has a lot of
+                      potential to develop professionally, and he will be a
+                      great asset to any company. All of this makes him a great
+                      team player, good luck Zakariye!"
                     </p>
                     <div className="d-inline-block">
-                      <span className="customerspan1">Mr.John Doe </span>
-                      <span className="customerspan2"> - Designer</span>
-                    </div>
-                  </Col>
-                </Row>
-              </div>
-              <div>
-                <Row className="customerReview">
-                  <Col md={2} xs={12}>
-                    <img
-                      className="img-fluid mx-auto img-circle  img--size"
-                      src={CR2}
-                      alt="Review"
-                    />
-                  </Col>
-
-                  <Col md={10} xs={12} className="customerP">
-                    <p>
-                      Sed elit quam, iaculis sed semper sit amet udin vittheae
-                      nibi at magna akal semperFusce commodo molestie elit quam,
-                      iaculis sed sempsum Dolort tusima olatiup udin vitae magna
-                      semperFusceSed elit quam, iaculis sed semper udin vitae
-                      nibh. at magna akal semperFusce.
-                    </p>
-                    <div className="d-inline-block">
-                      <span className="customerspan1">Mr.John Doe </span>
-                      <span className="customerspan2"> - Designer</span>
-                    </div>
-                  </Col>
-                </Row>
-              </div>
-              <div>
-                <Row className="customerReview">
-                  <Col md={2} xs={12}>
-                    <img
-                      className="img-fluid mx-auto img-circle  img--size"
-                      src={CR3}
-                      alt="Review"
-                    />
-                  </Col>
-
-                  <Col md={10} xs={12} className="customerP">
-                    <p>
-                      Sed elit quam, iaculis sed semper sit amet udin vittheae
-                      nibi at magna akal semperFusce commodo molestie elit quam,
-                      iaculis sed sempsum Dolort tusima olatiup udin vitae magna
-                      semperFusceSed elit quam, iaculis sed semper udin vitae
-                      nibh. at magna akal semperFusce.
-                    </p>
-                    <div className="d-inline-block">
-                      <span className="customerspan1">Mr.John Doe </span>
-                      <span className="customerspan2"> - Designer</span>
+                      <span className="customerspan1">Duy Cao </span>
+                      <span className="customerspan2"> - Manager for Addcomposite</span>
                     </div>
                   </Col>
                 </Row>

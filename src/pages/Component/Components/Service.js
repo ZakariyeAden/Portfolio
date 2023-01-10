@@ -44,9 +44,10 @@ const Service = () => {
                       Web Devlopment
                     </Card.Subtitle>
                     <Card.Text className="service-text">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua.
+                      Web development is the building and maintenance of
+                      websites; it's the work that happens behind the scenes to
+                      make a website look great, work fast and perform well with
+                      a seamless user experience.
                     </Card.Text>
                   </Card.Body>
                 </Card>
@@ -76,9 +77,12 @@ const Service = () => {
                       Web Design
                     </Card.Subtitle>
                     <Card.Text className="service-text">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua.
+                      Designing user interface on Figma and using inspirations
+                      tools from Interent such as Dribble.
+                      <br/>
+                      <br/>
+                      <br/>
+                      <br/>
                     </Card.Text>
                   </Card.Body>
                 </Card>
@@ -105,12 +109,15 @@ const Service = () => {
                       />
                     </Card.Title>
                     <Card.Subtitle className="cardtitle">
-                      Hosting
+                      Web Hosting and Authentication
                     </Card.Subtitle>
                     <Card.Text className="service-text">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua.
+                      Capable hosting websites on Firebase and Heroku.Able to
+                      implement security for users to gain access to their
+                      accounts.
+                      <br/>
+                      <br/>
+                      <br/>
                     </Card.Text>
                   </Card.Body>
                 </Card>
