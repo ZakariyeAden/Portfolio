@@ -34,7 +34,7 @@ const Experience = () => {
                   <Card.Body className="exp-body">
                     <Card.Title className="exp-title">
                       Freelance Web Developer
-                      <p>2021 - Present | Full Time | Fiverr</p>
+                      <p>2022 - Present | Full Time | Fiverr</p>
                     </Card.Title>
                     <hr />
                     <Card.Text className="exp-text">

@@ -1,17 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.60de0f7d.css",
-    "main.js": "/static/js/main.5e1dd032.js",
+    "main.css": "/static/css/main.9391c83d.css",
+    "main.js": "/static/js/main.c0e86b2f.js",
     "static/js/787.72f566cc.chunk.js": "/static/js/787.72f566cc.chunk.js",
-    "static/media/Banner.png": "/static/media/Banner.639c4fdafdd800760cb8.png",
-    "static/media/Aboutus.png": "/static/media/Aboutus.90dda4cec7b8b59ed230.png",
-    "static/media/R4.png": "/static/media/R4.7da451913e01fb6d0efb.png",
-    "static/media/R3.png": "/static/media/R3.1aa81eba3ec10460a21b.png",
-    "static/media/R1.png": "/static/media/R1.e59d25806d3c639caa67.png",
-    "static/media/R2.png": "/static/media/R2.4ffd51dc1219166f7fd2.png",
-    "static/media/CR3.png": "/static/media/CR3.53265787ec25b4d9b86d.png",
-    "static/media/CR2.png": "/static/media/CR2.24401eafa8c7f31dd970.png",
-    "static/media/CR1.png": "/static/media/CR1.39c6bb7dcf305a4bed0b.png",
+    "static/media/Profile.png": "/static/media/Profile.36c3453b60a7f7dafe1e.png",
+    "static/media/DuyCao.jpeg": "/static/media/DuyCao.6fcc666873c0bf727538.jpeg",
     "static/media/img5.png": "/static/media/img5.54532a52040d5b34dad8.png",
     "static/media/img4.png": "/static/media/img4.40c86346397357276a1e.png",
     "static/media/img3.png": "/static/media/img3.e1c0d1e5af2d69bf0679.png",
@@ -19,12 +12,12 @@
     "static/media/img2.png": "/static/media/img2.bed9ba2fc29c7837d161.png",
     "static/media/img6.png": "/static/media/img6.4f7987bf3dc792c12412.png",
     "index.html": "/index.html",
-    "main.60de0f7d.css.map": "/static/css/main.60de0f7d.css.map",
-    "main.5e1dd032.js.map": "/static/js/main.5e1dd032.js.map",
+    "main.9391c83d.css.map": "/static/css/main.9391c83d.css.map",
+    "main.c0e86b2f.js.map": "/static/js/main.c0e86b2f.js.map",
     "787.72f566cc.chunk.js.map": "/static/js/787.72f566cc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.60de0f7d.css",
-    "static/js/main.5e1dd032.js"
+    "static/css/main.9391c83d.css",
+    "static/js/main.c0e86b2f.js"
   ]
 }
