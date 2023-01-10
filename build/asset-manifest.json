@@ -1,9 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.9391c83d.css",
-    "main.js": "/static/js/main.c0e86b2f.js",
+    "main.css": "/static/css/main.0927c807.css",
+    "main.js": "/static/js/main.f2c643d2.js",
     "static/js/787.72f566cc.chunk.js": "/static/js/787.72f566cc.chunk.js",
     "static/media/Profile.png": "/static/media/Profile.36c3453b60a7f7dafe1e.png",
+    "static/media/ClothingStore.png": "/static/media/ClothingStore.b2bbea9f9e4f1871ea67.png",
+    "static/media/Blog.png": "/static/media/Blog.5b1e3c84113d4b701d67.png",
     "static/media/DuyCao.jpeg": "/static/media/DuyCao.6fcc666873c0bf727538.jpeg",
     "static/media/img5.png": "/static/media/img5.54532a52040d5b34dad8.png",
     "static/media/img4.png": "/static/media/img4.40c86346397357276a1e.png",
@@ -12,12 +14,12 @@
     "static/media/img2.png": "/static/media/img2.bed9ba2fc29c7837d161.png",
     "static/media/img6.png": "/static/media/img6.4f7987bf3dc792c12412.png",
     "index.html": "/index.html",
-    "main.9391c83d.css.map": "/static/css/main.9391c83d.css.map",
-    "main.c0e86b2f.js.map": "/static/js/main.c0e86b2f.js.map",
+    "main.0927c807.css.map": "/static/css/main.0927c807.css.map",
+    "main.f2c643d2.js.map": "/static/js/main.f2c643d2.js.map",
     "787.72f566cc.chunk.js.map": "/static/js/787.72f566cc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9391c83d.css",
-    "static/js/main.c0e86b2f.js"
+    "static/css/main.0927c807.css",
+    "static/js/main.f2c643d2.js"
   ]
 }
