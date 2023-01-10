@@ -46,13 +46,7 @@ export const MyPortfolio = () => {
               </ul>
             </div>
             <div>
-              <Masony
-                className={"photo-list row"}
-                elementType={"ul"}
-                options={masonryOptions}
-                disableImagesLoaded={false}
-                updateOnEachImageLoad={false}
-              >
+           <div className="portfolio-section">
                 {items.map((photo) => (
                   <li className={`photo-item col-md-4 col-sm-6 col-12 `} key={photo.id}>
                     <img src={photo.image} alt="" data-aos="fade-in"
@@ -70,7 +64,7 @@ export const MyPortfolio = () => {
                       </div>
                   </li>
                 ))}
-              </Masony>
+              </div>
             </div>
           </div>
         </Container>

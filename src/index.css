@@ -528,7 +528,10 @@ hr {
   /* margin: 20px 0; */
   padding: 0;
 }
-
+.portfolio-section{
+  display: flex;
+  
+}
 .photo-item {
   display: flex;
   margin: 15px auto;
