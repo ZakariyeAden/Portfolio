@@ -1516,6 +1516,11 @@ padding-bottom: 10px;
     padding-bottom: 40px;
   }
 }
+@media (max-width: 425px) {
+.ml-3 {
+  margin-left: 0rem;
+}
+}
 
 @media (min-width: 320px) and (max-width: 767px) {
   .navbar-light .navbar-nav .nav-link {
