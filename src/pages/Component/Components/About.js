@@ -1,7 +1,7 @@
 import React from "react";
 import { Row, Col, Image } from "react-bootstrap";
 import Aboutus from "../../../assets/Images/About/Profile.png";
-
+import Resume from '../../../assets/Images/ZakariyeAdenResume.pdf'
 const About = () => {
   return (
     <>
@@ -32,7 +32,8 @@ const About = () => {
                   courses at College although Normandale Community College
                   courses were outdated.I found passion in Web Development which
                   made me decide to learn on my own and discipline myself to
-                  become Web Developer.Currently learning App Development and interested in Cyber Security.
+                  become Web Developer.Currently learning App Development and
+                  interested in Cyber Security.
                 </p>
 
                 <p className="about-subtitle">
@@ -81,7 +82,15 @@ const About = () => {
                   </Col>
                 </Row>
               </div>
-              <button className="BtnView">Download CV</button>
+              <button className="BtnView">
+                <a
+                  className="resume"
+                  href={Resume}
+                  download
+                >
+                  Download Resume
+                </a>
+              </button>
             </Col>
           </Row>
         </div>
