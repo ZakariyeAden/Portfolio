@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 
 import Aos from "aos";
 import Links from '../Links'
+import Profile from '../../../assets/Images/About/Profile.png'
 import "aos/dist/aos.css";
 const HeaderBanner = () => {
   useEffect(() => {
@@ -12,6 +13,11 @@ const HeaderBanner = () => {
       <div id="Home">
         <div className="home-section">
           <div className="home">
+          <span className=" ">
+            <div className="">
+           
+            </div>
+          </span>
             <div className="img-bnr-text ">
               <div>
                 <h5 data-aos="fade-down " className="heading">Web Developer</h5>

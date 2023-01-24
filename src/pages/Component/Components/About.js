@@ -8,6 +8,7 @@ const About = () => {
       <div className="container" id="About">
         <div className="about headding " data-aos="fade-right">
           <Row className="about-main">
+          
             <Col md={5}>
               <div className="about-img ">
                 <Image
