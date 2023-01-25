@@ -12,6 +12,7 @@ const HeaderBanner = () => {
     <>
       <div id="Home">
         <div className="home-section">
+        
           <div className="home">
           <span className=" ">
             <div className="">
