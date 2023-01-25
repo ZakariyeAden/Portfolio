@@ -52,9 +52,9 @@ body {
   z-index: 2;
   background-color: #e2e2e2;
 }
-.logo{
+.logo {
   color: #00af73;
-  font-family: 'Modak', cursive;
+  font-family: "Modak", cursive;
   letter-spacing: 2px;
   font-size: 1.5rem;
 }
@@ -147,7 +147,6 @@ body {
   position: relative;
 }
 
-
 .img-bnr-text h5 {
   font-size: 24px;
   color: #00af73;
@@ -197,7 +196,7 @@ body {
   text-transform: uppercase;
 }
 
-.description{
+.description {
   line-height: 1.5;
 }
 
@@ -230,15 +229,15 @@ body {
   background-color: #000;
   color: #fff;
 }
-.home-section{
+.home-section {
   height: 70vh;
   background-color: #e9ecef;
 }
-.home{
+.home {
   display: flex;
   justify-content: center;
 }
-.heading{
+.heading {
   color: #00af73;
 }
 /* ----------------------- End Banner Text ------------------------ */
@@ -249,7 +248,8 @@ body {
 .about-list {
   line-height: 40px;
 }
-.resume, .resume:hover{
+.resume,
+.resume:hover {
   color: #fff;
   text-decoration: none;
 }
@@ -320,7 +320,7 @@ body {
   color: #808080;
   font-weight: 500;
 }
-.m-rt{
+.m-rt {
   margin-right: 2rem;
 }
 /* ------------------------ End About us ------------------------ */
@@ -459,13 +459,13 @@ hr {
 /* ------------------------ End Experience ------------------------ */
 
 /* ------------------------  Education & Skills ------------------------ */
-.educationColBox{
+.educationColBox {
   padding: 0;
 }
 .education-box-main {
   margin: 0 auto;
 }
-.education-box-main .col{
+.education-box-main .col {
   padding: 0;
 }
 .educontion h6 {
@@ -505,22 +505,21 @@ hr {
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
 }
 
-
-.ml-3{
+.ml-3 {
   margin-left: 3rem;
 }
-.skill{
+.skill {
   margin: 1rem 4rem;
 }
-.skill-heading{
+.skill-heading {
   font-size: 0.8rem;
   text-align: center;
   margin-top: 1rem;
 }
-.icon-color{
+.icon-color {
   background-color: rgb(0, 176, 116);
 }
-.profile-img{
+.profile-img {
   border-radius: 50%;
 }
 /* ------------------------ End Education & Skills ------------------------ */
@@ -531,25 +530,22 @@ hr {
   /* margin: 20px 0; */
   /* padding: 0; */
 }
-.portfolio-section{
+.portfolio-section {
   display: flex;
-  
 }
 .photo-item {
- 
-
   display: flex;
   margin: 15px auto;
   flex-direction: column;
 }
-.photo-description{
+.photo-description {
   color: #fff;
 }
-.d-flex{
+.d-flex {
   display: flex;
   gap: 2rem;
 }
-.icon-{
+.icon- {
   color: #000;
   font-size: 1.5rem;
 }
@@ -699,9 +695,8 @@ img.img-fluid.mx-auto.portfolooimgeffect.aos-init {
   position: relative;
   margin-bottom: 0;
   overflow: hidden;
-
 }
-.insta{
+.insta {
   margin: -10px;
 }
 .blog-post-hover {
@@ -771,10 +766,10 @@ img.img-fluid.mx-auto.portfolooimgeffect.aos-init {
   font-size: 22px;
   font-weight: 800;
 }
-.insta{
+.insta {
   margin: -12px;
 }
-.insta .slick-initialized .slick-slide{
+.insta .slick-initialized .slick-slide {
   padding-left: 12px;
   padding-right: 12px;
 }
@@ -805,9 +800,9 @@ img.img-fluid.mx-auto.portfolooimgeffect.aos-init {
 /* ------------------------------------ End RecentArtical ------------------------------------ */
 
 /* ------------------------------------  Footer ------------------------------------ */
-  :focus-visible {
-    outline: none;
-  }
+:focus-visible {
+  outline: none;
+}
 
 .btn {
   float: left;
@@ -925,9 +920,9 @@ img.img-fluid.mx-auto.portfolooimgeffect.aos-init {
   height: 165px;
   overflow: hidden;
 }
-.form-control{
+.form-control {
   border-radius: 0px !important;
-  }
+}
 .f-link {
   text-align: center;
   background-color: #00b074;
@@ -966,7 +961,7 @@ img.img-fluid.mx-auto.portfolooimgeffect.aos-init {
   padding: 12px;
   color: #fff;
 }
-@media  (max-width: 768px) {
+@media (max-width: 768px) {
   .img-bnr-text div {
     margin-top: 5rem;
   }
@@ -1052,6 +1047,7 @@ img.img-fluid.mx-auto.portfolooimgeffect.aos-init {
     display: block;
   }
 }
+
 @media (min-width: 768px) and (max-width: 991px) {
   /* 
   .navbar{
@@ -1068,15 +1064,23 @@ img.img-fluid.mx-auto.portfolooimgeffect.aos-init {
     margin-left: 30px;
   }
   .img-bnr-text h5 {
-    font-size: 24px;
+    font-size: 13px;
+  }
+  
+  .description {
+    line-height: 1.5;
+    font-size: 0.8rem;
   }
   .img-bnr-text h1 {
     font-size: 34px;
+    margin-top: 1px;
   }
   .img-bnr-text p {
     font-size: 14px;
   }
-
+  .about-img {
+    margin-right: 2rem;
+}
   .BtnView {
     min-width: 120px;
     min-height: 40px;
@@ -1522,9 +1526,9 @@ padding-bottom: 10px;
   }
 }
 @media (max-width: 425px) {
-.ml-3 {
-  margin-left: 0rem;
-}
+  .ml-3 {
+    margin-left: 0rem;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
