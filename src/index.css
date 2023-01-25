@@ -1092,7 +1092,7 @@ img.img-fluid.mx-auto.portfolooimgeffect.aos-init {
   .perName2,
   .perName1,
   .about-subtitle {
-    font-size: 13px;
+    font-size: 12px;
     text-align: justify;
   }
   .main-service {
@@ -1151,70 +1151,15 @@ img.img-fluid.mx-auto.portfolooimgeffect.aos-init {
   }
 }
 
-/* @media  (max-width: 767px){
-  .img-bnr-text{
-    top:15px;
-    margin-left: 50px;
-  }
-  .img-bnr-text h5{
-    font-size: 22px;
-  }
-  .img-bnr-text h1{
-    font-size: 34px;
-  }
-  .img-bnr-text p {
-    font-size: 14px;
-  }
+@media  (max-width: 1024px){
+ .exp-text {
+  font-size: 13px;
+}
+.perName2 {
+  font-size: 15px;
+}
+}
 
-    .perName2,.perName1,.about-subtitle{
-      font-size: 13px;
-      text-align: justify;
-    }
-    .skill-box span {
-      font-size: 22px;
-    }
-  .about-title{
-    font-size: 32px;
-  }
-  .about-subtitle{
-    font-size: 14px;
-  }
-  .perName1, .perName2{
-    font-size: 15px;
-  }
-  .cardtitle{
-    font-size: 20px;
-    padding-bottom: 10px;
-  }
-  .skill-box{
-    padding-left: 1px;
-  }
-  .skill-box span {
-    font-size: 20px;
-  }
-  .textblock1{
-    padding:15px 15px;
-    margin: -69px 38px 35px 38px;    
-  }
-  .textblock1 h1{
-    font-size: 15px; 
-    }
-    
-
-.main-portfolio {
-  padding-top: 40px;
-}
-.main-service {
-padding-top: 40px;
-padding-bottom: 10px;
-}
-.headding{
-  margin-top: 20px;
-} 
-.about-title{
-  margin-bottom: 35px;
-}
-} */
 @media (min-width: 576px) and (max-width: 767px) {
   .img-bnr-text {
     top: 20%;
@@ -1547,9 +1492,12 @@ padding-bottom: 10px;
     margin-bottom: 30px;
   }
   .customerP p {
-    font-size: 12px;
+    font-size: 10px;
     margin-bottom: 8px;
     margin-top: 15px;
+  }
+  .customerspan2{
+    font-size: 10px;
   }
   .F-contact {
     font-size: 30px;
@@ -1592,7 +1540,9 @@ padding-bottom: 10px;
   .img-bnr-text .BtnView {
     min-height: 40px;
     min-width: 80px;
-  }
+    padding: 1.3rem 2rem;
+    margin-top: 1rem;
+}
 }
 @media (min-width: 451px) and (max-width: 767px) {
   .exp-main .title {
@@ -1628,6 +1578,7 @@ padding-bottom: 10px;
   }
   .img-bnr-text h1 {
     font-size: 24px;
+    margin-top: 3px;
   }
   .img-bnr-text {
     top: 12%;
@@ -1637,10 +1588,11 @@ padding-bottom: 10px;
     display: none;
   }
   .BtnView {
-    margin-top: 0;
-    min-width: 100px;
-    min-height: 30px;
-    font-size: 14px;
+      margin-top: 0;
+      min-width: 100px;
+      min-height: 30px;
+      font-size: 14px;
+      padding: 1.3rem 1rem;
   }
   .about-img {
     margin-top: 0px;
@@ -1678,7 +1630,7 @@ padding-bottom: 10px;
   }
   .perName1,
   .perName2 {
-    font-size: 10px;
+    font-size: 9px;
   }
   .img--size {
     vertical-align: middle;
@@ -1827,4 +1779,13 @@ padding-bottom: 10px;
   .footer {
     padding-bottom: 40px;
   }
+}
+
+@media (max-width: 320px) {
+  .h6, h6 {
+    font-size: 0.8rem;
+}
+.ml-3 {
+  margin-left: 2rem;
+}
 }
