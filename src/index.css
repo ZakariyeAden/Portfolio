@@ -367,7 +367,8 @@ body {
   padding-right: 7px;
   padding-left: 7px;
 }
-.service-card:hover {
+
+.service-card :hover {
   background-color: #00b074;
   color: #fff;
 }
@@ -965,6 +966,9 @@ img.img-fluid.mx-auto.portfolooimgeffect.aos-init {
   .img-bnr-text div {
     margin-top: 5rem;
   }
+  .service-text {
+    font-size: 12px;
+}
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   .navbar {
@@ -1060,9 +1064,9 @@ img.img-fluid.mx-auto.portfolooimgeffect.aos-init {
     line-height: 35px;
   }
   .img-bnr-text {
-    top: 50px;
+    top: 90px;
     margin-left: 30px;
-  }
+}
   .img-bnr-text h5 {
     font-size: 13px;
   }
