@@ -1568,6 +1568,12 @@ img.img-fluid.mx-auto.portfolooimgeffect.aos-init {
     top: 45px;
   }
 }
+@media  (max-width: 450px) and (min-width: 360px){
+  .home-section {
+    height: 59vh;
+    background-color: #e9ecef;
+}
+}
 
 @media (min-width: 320px) and (max-width: 450px) {
   .navbar-light .navbar-nav .nav-link {
