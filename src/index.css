@@ -148,7 +148,7 @@ body {
 }
 
 .img-bnr-text h5 {
-  font-size: 24px;
+  font-size: 15px;
   color: #00af73;
   font-weight: 500;
   margin: 0;
@@ -198,6 +198,7 @@ body {
 
 .description {
   line-height: 1.5;
+  font-size: 15px;
 }
 
 .BtnView:hover::before {
@@ -368,10 +369,11 @@ body {
   padding-left: 7px;
 }
 
-.service-card :hover {
+.service-card:hover {
   background-color: #00b074;
   color: #fff;
 }
+
 .service-card::after {
   content: "";
   position: absolute;
@@ -387,9 +389,11 @@ body {
   padding-top: 30px;
   padding-bottom: 30px;
   transition: 0.2s ease;
+  
 }
 .service-card:hover img {
   filter: brightness(0) invert(1);
+  
 }
 .cardtitle:hover .service-text {
   color: #fff;
