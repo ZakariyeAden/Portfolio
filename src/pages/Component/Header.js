@@ -21,7 +21,6 @@ const Header = () => {
                 <Links href="#Service">Service</Links>
                 <Links href="#Experience">Experience</Links>
                 <Links href="#Potfolio"> Projects</Links>
-                {/* <Links href="#Blog">Blog</Links> */}
                 <Links href="#Contact">Contact</Links>
               </Nav>
             </Navbar.Collapse>
