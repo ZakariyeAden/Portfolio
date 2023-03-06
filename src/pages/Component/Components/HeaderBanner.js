@@ -38,7 +38,7 @@ const HeaderBanner = (props) => {
                   Passionate about building User Interface, designing, and being Critirea Team Member
                 </h6>
                 <Links href="#About">
-                <button className="BtnView">About Us</button>
+                <button className="BtnView">About Me</button>
                 </Links>
         
               </div>

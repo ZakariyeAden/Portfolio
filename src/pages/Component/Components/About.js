@@ -26,7 +26,7 @@ const About = () => {
             </Col>
             <Col md={7} className="abouttextbox">
               <div>
-                <h1 className="about-title">About Us</h1>
+                <h1 className="about-title">About Me</h1>
                 <p className="about-subtitle">
                   At Normandale Community college, I am pursing my Associate
                   degree. I have found interest in Computer Science and took
