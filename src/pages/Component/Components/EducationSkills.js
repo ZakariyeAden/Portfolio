@@ -37,37 +37,37 @@ const EducationSkills = () => {
             <Col lg={8} md={8}>
               <div className="skills ml-3">
                 <span className="icon skill">
-                  <AiFillHtml5 size={60} />
+                  <AiFillHtml5 size={60} className="html"/>
                   <h5 className="skill-heading">HTML</h5>
                 </span>
 
                 <span className="icon skill">
-                  <DiCss3 size={60} />
+                  <DiCss3 size={60} className="css"/>
                   <h5 className="skill-heading">CSS</h5>
                 </span>
 
                 <span className="icon  skill">
-                  <DiJavascript1 size={60} />
+                  <DiJavascript1 size={60} className="js"/>
                   <h5 className="skill-heading">Javascript</h5>
                 </span>
 
                 <span className="icon  skill">
-                  <GrReactjs size={60} />
+                  <GrReactjs size={60} className="react"/>
                   <h5 className="skill-heading">ReactJs</h5>
                 </span>
 
                 <span className="icon  skill">
-                  <DiMysql size={60} color="icon-color" />
+                  <DiMysql size={60} className="sql" />
                   <h5 className="skill-heading">SQL</h5>
                 </span>
 
                 <span className="icon skill">
-                  <DiNodejsSmall size={60} />
+                  <DiNodejsSmall size={60} className="nodejs"/>
                   <h5 className="skill-heading">NodeJs</h5>
                 </span>
 
                 <span className="icon skill">
-                  <GrHeroku size={60} />
+                  <GrHeroku size={60} className="heroku"/>
                   <h5 className="skill-heading">Heroku</h5>
                 </span>
 

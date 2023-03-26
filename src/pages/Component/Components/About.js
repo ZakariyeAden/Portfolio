@@ -1,14 +1,13 @@
 import React from "react";
 import { Row, Col, Image } from "react-bootstrap";
 import Aboutus from "../../../assets/Images/About/Profile.png";
-import Resume from '../../../assets/Images/ZakariyeAdenResume.pdf'
+import Resume from "../../../assets/Images/ZakariyeAdenResume.pdf";
 const About = () => {
   return (
     <>
       <div className="container" id="About">
         <div className="about headding " data-aos="fade-right">
           <Row className="about-main">
-          
             <Col md={5}>
               <div className="about-img ">
                 <Image
@@ -28,20 +27,20 @@ const About = () => {
               <div>
                 <h1 className="about-title">About Me</h1>
                 <p className="about-subtitle">
-                  At Normandale Community college, I am pursing my Associate
-                  degree. I have found interest in Computer Science and took
-                  courses at College although Normandale Community College
-                  courses were outdated.I found passion in Web Development which
-                  made me decide to learn on my own and discipline myself to
-                  become Web Developer.Currently learning App Development and
-                  interested in Cyber Security.
+                  Im a <span className="developer">Full Stack Developer</span> with experience. Started learning
+                  how to code during Normandale Community College while learning
+                  Web Development.Landed Web Developer Intern with Addcomposites
+                  and worked alongside with my Manager to build User Interface.I
+                  learned that I work best by building projects and working
+                  alongside with team! Graduated from Prime Digital Bootcamp
+                  immersive program.
                 </p>
 
                 <p className="about-subtitle">
-                  I am always motivated, phenomenal team member, and capable of
-                  learning new skills and working effiecently. During my
-                  internship within Addcomposite, I have built and design few
-                  pages and made their user interface fully responsive.
+                  I am always self motivated to Software Developer to building
+                  User Interface.Using creativity, problem solving skills,
+                  designing, and building end to end projects.In my free, I like
+                  helping my family and community or reading books!
                 </p>
               </div>
               <div className="about-psl-info">
@@ -84,11 +83,7 @@ const About = () => {
                 </Row>
               </div>
               <button className="BtnView">
-                <a
-                  className="resume"
-                  href={Resume}
-                  download
-                >
+                <a className="resume" href={Resume} download>
                   Download Resume
                 </a>
               </button>
