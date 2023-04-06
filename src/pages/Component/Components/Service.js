@@ -41,7 +41,7 @@ const Service = () => {
                       />
                     </Card.Title>
                     <Card.Subtitle className="cardtitle ">
-                      Web Devlopment
+                      Web Development
                     </Card.Subtitle>
                     <Card.Text className="service-text">
                       Web development is the building and maintenance of
