@@ -17,8 +17,6 @@ export const MyPortfolio = () => {
     Aos.init({ duration: 2000 });
   }, []);
   const [items, setItem] = useState(PortfolioImg);
- 
-
   return (
     <>
       <div className="main-portfolio headding" id="Potfolio">
@@ -26,7 +24,7 @@ export const MyPortfolio = () => {
           <div className="portfolio">
             <h1 className="text-center port-title">My Projects</h1>
             <div>
-              <Masony
+            <Masony
                 className={"photo-list row"}
                 elementType={"ul"}
                 options={masonryOptions}
@@ -38,31 +36,39 @@ export const MyPortfolio = () => {
                     className={`photo-item col-md-4 col-sm-6 col-12 `}
                     key={photo.id}
                   >
-                    <img
-                      src={photo.image}
-                      alt="Projects"
-                      data-aos="fade-in"
-                      data-aos-duration="3000"
-                      className="img-fluid mx-auto portfolooimgeffect"
-                    />
-                    <p className="photo-description mt-3">
-                      {photo.description}
-                    </p>
-                    <div className="d-flex">
-                      <a href={photo.github} target="_blank" className="f-icon">
-                        <i className="icon-">
-                          <AiFillGithub />
-                        </i>
-                      </a>
-                      <a href={photo.live} target="_blank" className="f-icon">
-                        <i className="icon-">
-                          <MdOutlineWebAsset />
-                        </i>
-                      </a>
-                    </div>
+                        <img
+                          src={photo.image}
+                          alt="Projects"
+                          data-aos="fade-in"
+                          data-aos-duration="3000"
+                          className="img-fluid mx-auto portfolooimgeffect"
+                        />
+                        <p className="photo-description mt-3">
+                          {photo.description}
+                        </p>
+                        <div className="d-flex">
+                          <a
+                            href={photo.github}
+                            target="_blank"
+                            className="f-icon"
+                          >
+                            <i className="icon-">
+                              <AiFillGithub />
+                            </i>
+                          </a>
+                          <a
+                            href={photo.live}
+                            target="_blank"
+                            className="f-icon"
+                          >
+                            <i className="icon-">
+                              <MdOutlineWebAsset />
+                            </i>
+                          </a>
+                        </div>
                   </li>
                 ))}
-              </Masony>
+            </Masony>
             </div>
           </div>
         </Container>
