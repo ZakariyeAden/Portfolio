@@ -3,19 +3,18 @@ import { Col, Container, Row } from "react-bootstrap";
 import { BsTelephone } from "react-icons/bs";
 import { BsEnvelope } from "react-icons/bs";
 import { BiMap } from "react-icons/bi";
-import emailjs from 'emailjs-com'
+import emailjs from '@emailjs/browser';
 import { AiFillLinkedin } from "react-icons/ai";
 
 const sendEmail = (e) => {
   
   e.preventDefault();
-  emailjs.sendForm('service_5beecz3', 'template_om9th2p', e.target, 'rNWW6X0pGrhjIhndN')
+  emailjs.sendForm('service_5beecz3', 'template_om9th2p', e.target, 'U9GeU0_S-uKSq-XUd')
     .then((result) => {
         console.log(result.text);
     }, (error) => {
         console.log(error.text);
     });
-    e.target.reset();
 };
 const Footer = () => {
   return (
@@ -104,7 +103,7 @@ const Footer = () => {
                         <div className="col-md-6 col-sm-6 col-6">
                           <input
                             type="text"
-                            name="message"
+                            name="email"
                             className="form-control inputbox"
                             id="validationCustom02"
                             placeholder="E-mail"
