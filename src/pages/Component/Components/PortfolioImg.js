@@ -1,27 +1,20 @@
-import img1 from '../../../assets/Images/Portfolio/img1.png'
-import img2 from '../../../assets/Images/Portfolio/img2.png'
-import img3 from '../../../assets/Images/Portfolio/img3.png'
-import img4 from '../../../assets/Images/Portfolio/img4.png'
-import img5 from '../../../assets/Images/Portfolio/img5.png'
-import img6 from '../../../assets/Images/Portfolio/img6.png'
-import Blog from '../../../assets/Images/Portfolio/Blog.png'
-import ClothingStore from '../../../assets/Images/Portfolio/ClothingStore.png'
+import QuranApp from '../../../assets/Images/About/AlQuran.png'
+
 export const PortfolioImg = [
     {
         id: 1,
-        image: Blog,
+        image: QuranApp,
         category: "FullStack",
-        description: "Blog Project that allows user to Create, Delete and Read.Allows user to like Post. Tools: Reactjs, NodeJs/ExpressJs, SQL, and Heroku ",
-        github:"https://github.com/ZakariyeAden/Blog-projects",
-        live: "https://zippy-valkyrie-5048e6.netlify.app/"
+        description: "Solo Project: Al Quran App designed for users who are engaged in memorizing the Holy Quran,offering the ability to create and track plans,listen to chapter audio, and memorize chapters of verses with ease.The app also maintains weekly plans and sends notification for chapters surpassing their deadlines.",
+        github:"https://github.com/ZakariyeAden/Quran-App"
     },
     {
         id: 2,
-        image: ClothingStore,
+        // image: img6,
         category: "Frontend",
-        description: "Clothing Store Project with complete cart functionality. Tools: Reactjs, Redux, React-Router,Figma ",
-        github:"https://github.com/ZakariyeAden/Ecommerce",
-        live: "https://ecommerce-bay-beta.vercel.app/"
+        description: "Group Client Project: Bootcamp Salary Tracker (In Progress): Engaging with fellow developers to construct a Salary Tracker for client at Prime Digital Academy. This app is designed to assist alumni and current students of Prime Digital Academy in tracking their salaries. (To be continued)",
+        // github:"https://github.com/ZakariyeAden/Ecommerce",
+        // live: "https://ecommerce-bay-beta.vercel.app/"
     },
  
 ]
