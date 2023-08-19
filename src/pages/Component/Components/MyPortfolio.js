@@ -56,15 +56,6 @@ export const MyPortfolio = () => {
                               <AiFillGithub />
                             </i>
                           </a>
-                          <a
-                            href={photo.live}
-                            target="_blank"
-                            className="f-icon"
-                          >
-                            <i className="icon-">
-                              <MdOutlineWebAsset />
-                            </i>
-                          </a>
                         </div>
                   </li>
                 ))}
