@@ -1,4 +1,4 @@
-import QuranApp from '../../../assets/Images/About/AlQuran.png'
+import QuranApp from '../../../assets/Images/About/AlQuranProject.png'
 
 export const PortfolioImg = [
     {
