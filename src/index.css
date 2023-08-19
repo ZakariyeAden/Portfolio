@@ -552,11 +552,14 @@ hr {
 /* ------------------------ MY PORTFOLIO ------------------------ */
 .photo-list {
   list-style: none;
-  /* margin: 20px 0; */
-  /* padding: 0; */
+  margin: 20px 0; 
+  padding: 0;
 }
 .portfolio-section {
   display: flex;
+  gap: 5rem;
+}
+.portfolio{
 }
 .photo-item {
   display: flex;
