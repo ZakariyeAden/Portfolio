@@ -575,7 +575,19 @@ hr {
   font-size: 1.5rem;
 }
 .figma{
-  width: 14%;
+  color: #f03e3e;
+}
+.adobe{
+  color: rgb(14, 30, 72);
+}
+.styled-compoents{
+  color: #fcc419;
+}
+.postgresql{
+  color: #1864ab;
+}
+.heroku{
+  color: #7950f2;
 }
 .photo-item img {
   display: flex;
