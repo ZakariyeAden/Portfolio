@@ -35,7 +35,7 @@ const HeaderBanner = (props) => {
                 <h1 data-aos="flip-down">Zakariye Aden</h1>
                 <h3>Im <span className="position">{text}</span></h3>
                 <h6 className="description">
-                  Passionate about building User Interface, designing, and being Critirea Team Member
+                  Passionate about building user interface, designing, and adapting to new technologies
                 </h6>
                 <Links href="#About">
                 <button className="BtnView">About Me</button>

@@ -1,7 +1,6 @@
 import React from "react";
 import { Row, Col, Image } from "react-bootstrap";
-import Aboutus from "../../../assets/Images/About/Profile.png";
-import Resume from "../../../assets/Images/ZakariyeAdenResume.pdf";
+import Aboutus from "../../../assets/Images/About/Profile.jpg";
 const About = () => {
   return (
     <>
@@ -19,7 +18,7 @@ const About = () => {
                 />
                 <div className="text-center About-name">
                   <h6>Zakariye Aden</h6>
-                  <p>Web Developer</p>
+                  <p>Full Stack Engineer</p>
                 </div>
               </div>
             </Col>
@@ -27,20 +26,19 @@ const About = () => {
               <div>
                 <h1 className="about-title">About Me</h1>
                 <p className="about-subtitle">
-                  Im a <span className="developer">Full Stack Developer</span> with experience. Started learning
-                  how to code during Normandale Community College while learning
-                  Web Development.Landed Web Developer Intern with Addcomposites
-                  and worked alongside with my Manager to build User Interface.I
-                  learned that I work best by building projects and working
-                  alongside with team! Graduated from Prime Digital Bootcamp
-                  immersive program.
+                  Im a <span className="developer">Full Stack Developer</span>.
+                  Graduated from Prime Digital Academy immersive
+                  bootcamp.My skillset includes proficiency in React, ExpressJs, and PostgreSQL.
+                  Before Prime Digital Academy, worked alongside with
+                  Addcomposites and improved user interface, colloborated, and
+                  solved problems.
                 </p>
 
                 <p className="about-subtitle">
-                  I am always self motivated to Software Developer to building
-                  User Interface.Using creativity, problem solving skills,
-                  designing, and building end to end projects.In my free, I like
-                  helping my family and community or reading books!
+                  I am always motivated to learning various technologies.Using
+                  creativity, rebranding, designing, and building end to
+                  end projects.Personally, I like helping my family and
+                  community!
                 </p>
               </div>
               <div className="about-psl-info">
@@ -82,11 +80,6 @@ const About = () => {
                   </Col>
                 </Row>
               </div>
-              <button className="BtnView">
-                <a className="resume" href={Resume} download>
-                  Download Resume
-                </a>
-              </button>
             </Col>
           </Row>
         </div>
