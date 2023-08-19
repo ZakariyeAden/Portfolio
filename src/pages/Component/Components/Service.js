@@ -78,7 +78,7 @@ const Service = () => {
                     </Card.Subtitle>
                     <Card.Text className="service-text">
                       Designing user interface on Figma and using inspirations
-                      tools from Interent such as Dribble.
+                      tools such as Dribble.
                       <br/>
                       <br/>
                       <br/>
@@ -112,9 +112,9 @@ const Service = () => {
                       Web Hosting and Authentication
                     </Card.Subtitle>
                     <Card.Text className="service-text">
-                      Capable hosting websites on Firebase and Heroku.Able to
+                      Capable hosting websites on Heroku.Able to
                       implement security for users to gain access to their
-                      accounts.
+                      accounts by using library passport.
                       <br/>
                       <br/>
                       <br/>
